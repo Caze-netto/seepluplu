@@ -17,7 +17,6 @@ int main() {
 
     std::cout << "<===============================>" << std::endl;
 
-
     while (tentativas < maxTentativas && word_to_guess["guess"] != word_to_guess["word"]) {
         std::cout << "Current word: " << word_to_guess["guess"] << std::endl;
         std::cout << "Give me a letter to guess: ";
